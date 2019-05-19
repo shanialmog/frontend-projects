@@ -1,0 +1,2 @@
+Implement the blog layout:
+https://purecss.io/layouts/blog/

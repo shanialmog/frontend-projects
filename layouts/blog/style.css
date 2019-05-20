@@ -1,0 +1,10 @@
+html {
+  margin: 0;
+}
+.upper {
+  text-transform: uppercase;
+}
+#page-con {
+  display: flex;
+  flex-direction: row;
+}

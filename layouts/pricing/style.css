@@ -52,9 +52,8 @@ a.nav:hover{
 }
 
 .container {
-  height: 100%;
   max-width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .pricing-items {
@@ -67,8 +66,10 @@ a.nav:hover{
   display: flex;
   flex-direction: column;
   height: 100%;
-  align-items: center;
   flex-grow: 1;
+  padding: 40px 10px;
+  text-align: center;
+  border-color: #ddd;
 }
 
 .price{
@@ -79,7 +80,13 @@ a.nav:hover{
   text-align: center;
   font-size: 18px;
   letter-spacing: 2px;
-  padding: 10px 10px;
+  padding: 30px 30px;
+}
+
+.price-info {
+  padding: 10px 40px;
+  border: 1px solid #e7e7e7;
+  background-color: #f7f7f7
 }
 
 .green {
@@ -97,4 +104,16 @@ a.nav:hover{
 .dollar {
   font-size: 100px;
   font-weight: 600;
+}
+
+.choose-btn {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.price-info:last-child {
+  padding: 30px 0;
+  background-color: #fff;
 }

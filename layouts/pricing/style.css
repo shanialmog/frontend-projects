@@ -59,13 +59,11 @@ a.nav:hover{
 .pricing-items {
   display: flex;
   flex-direction: row;
-  height: 100%;
 }
 
 .pricing-item {
   display: flex;
   flex-direction: column;
-  height: 100%;
   flex-grow: 1;
   padding: 40px 10px;
   text-align: center;
@@ -116,4 +114,33 @@ a.nav:hover{
 .price-info:last-child {
   padding: 30px 0;
   background-color: #fff;
+}
+
+.infos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.info-item {
+  margin: 20px 20px;
+  width: 440px;
+}
+
+.info-title {
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 4px;
+}
+
+footer {
+  background-color: #111;
+}
+
+.footer-text {
+  margin-top: 40px;
+  padding: 20px 20px;
+  color: #888;
+  text-align: center;
 }

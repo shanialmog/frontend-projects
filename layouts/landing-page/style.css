@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+}
+
+.push {
+  margin-left: auto;
+}
+
+a.nav {
+  padding: 20px 10px;
+}
+
+img {
+  height: 100% 
+}
+
+a{
+  text-decoration: none;
+}

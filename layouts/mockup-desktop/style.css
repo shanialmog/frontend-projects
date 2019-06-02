@@ -3,7 +3,6 @@ html, body {
   height: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
-  max-width: 980px;
 }
 
 .container {
@@ -80,7 +79,9 @@ h3 {
 .company-info {
   display: flex;
   justify-content: space-evenly;
-  margin: 60px 0;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  padding: 10px 20px 10px 90px;
 }
 
 .company-title {
@@ -92,8 +93,10 @@ h3 {
 }
 
 .company-info p {
-  width: 50%;
   font-weight: 500;
+  padding: 0 40px;
+  text-align: justify;
+  padding: 0 90px 0 20px;
 }
 
 .title-p {
@@ -108,4 +111,61 @@ h3 {
 .info-p {
   width: 300px;
   font-size: 13px;
+}
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #efefef;
+  padding: 80px 0 80px 0;
+}
+
+.services-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 0 0 60px 0;
+  text-align: center;
+}
+
+.services-title h3 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.services-desc {
+  font-weight: 400;
+}
+
+.services-items {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+.service-img-1 {
+  background-image: url(./img/service-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 260px;
+}
+
+.service-img-2 {
+  background-image: url(./img/service-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 260px;
+}
+
+.service-img-3 {
+  background-image: url(./img/service-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 260px;
 }
